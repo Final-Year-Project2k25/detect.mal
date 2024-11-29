@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
-import { Input } from '@/app/home/components/ui/input'
+import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 import {
   Dispatch,
@@ -17,7 +17,8 @@ import {
 import { useDropzone, DropzoneState, FileRejection, DropzoneOptions } from 'react-dropzone'
 import { toast } from 'sonner'
 import { Trash2 as RemoveIcon, X } from 'lucide-react'
-import { buttonVariants } from '@/app/home/components/ui/button'
+import { buttonVariants } from '@/components/ui/button'
+
 
 type DirectionOptions = 'rtl' | 'ltr' | undefined
 
